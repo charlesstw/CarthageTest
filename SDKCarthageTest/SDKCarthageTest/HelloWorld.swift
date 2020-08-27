@@ -8,8 +8,8 @@
 
 import Foundation
 
-class HelloWorld {
-    func show() {
+public class HelloWorld {
+    public func show() {
         print("Hi there!!!")
     }
 }
