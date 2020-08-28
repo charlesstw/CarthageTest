@@ -12,5 +12,6 @@ public class HelloWorld {
     public init() {}
     public func show() {
         print("Hi there!!!")
+        print("Hi Hi!!!")
     }
 }
