@@ -11,6 +11,12 @@
 		562A150F24F7B64F007059B3 /* SDKCarthageTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562A150E24F7B64F007059B3 /* SDKCarthageTestTests.swift */; };
 		562A151124F7B64F007059B3 /* SDKCarthageTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 562A150324F7B64E007059B3 /* SDKCarthageTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		562A151B24F7B674007059B3 /* HelloWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562A151A24F7B674007059B3 /* HelloWorld.swift */; };
+		56CA5819250093D900C89C2D /* SDKCarthageTest2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56CA5810250093D800C89C2D /* SDKCarthageTest2.framework */; };
+		56CA581E250093D900C89C2D /* SDKCarthageTest2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CA581D250093D900C89C2D /* SDKCarthageTest2Tests.swift */; };
+		56CA5820250093D900C89C2D /* SDKCarthageTest2.h in Headers */ = {isa = PBXBuildFile; fileRef = 56CA5812250093D800C89C2D /* SDKCarthageTest2.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56CA5828250093F300C89C2D /* Foo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CA5827250093F300C89C2D /* Foo.swift */; };
+		56CA582A2500942400C89C2D /* Bar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CA58292500942400C89C2D /* Bar.swift */; };
+		56CA582B2500944500C89C2D /* HelloWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562A151A24F7B674007059B3 /* HelloWorld.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -20,6 +26,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 562A14FF24F7B64E007059B3;
 			remoteInfo = SDKCarthageTest;
+		};
+		56CA581A250093D900C89C2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 562A14F724F7B64E007059B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56CA580F250093D800C89C2D;
+			remoteInfo = SDKCarthageTest2;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -31,6 +44,14 @@
 		562A150E24F7B64F007059B3 /* SDKCarthageTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDKCarthageTestTests.swift; sourceTree = "<group>"; };
 		562A151024F7B64F007059B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		562A151A24F7B674007059B3 /* HelloWorld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorld.swift; sourceTree = "<group>"; };
+		56CA5810250093D800C89C2D /* SDKCarthageTest2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDKCarthageTest2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56CA5812250093D800C89C2D /* SDKCarthageTest2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDKCarthageTest2.h; sourceTree = "<group>"; };
+		56CA5813250093D800C89C2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56CA5818250093D900C89C2D /* SDKCarthageTest2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDKCarthageTest2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		56CA581D250093D900C89C2D /* SDKCarthageTest2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDKCarthageTest2Tests.swift; sourceTree = "<group>"; };
+		56CA581F250093D900C89C2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56CA5827250093F300C89C2D /* Foo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Foo.swift; sourceTree = "<group>"; };
+		56CA58292500942400C89C2D /* Bar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +70,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		56CA580D250093D800C89C2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56CA5815250093D900C89C2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56CA5819250093D900C89C2D /* SDKCarthageTest2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -57,6 +93,8 @@
 			children = (
 				562A150224F7B64E007059B3 /* SDKCarthageTest */,
 				562A150D24F7B64E007059B3 /* SDKCarthageTestTests */,
+				56CA5811250093D800C89C2D /* SDKCarthageTest2 */,
+				56CA581C250093D900C89C2D /* SDKCarthageTest2Tests */,
 				562A150124F7B64E007059B3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -66,6 +104,8 @@
 			children = (
 				562A150024F7B64E007059B3 /* SDKCarthageTest.framework */,
 				562A150924F7B64E007059B3 /* SDKCarthageTestTests.xctest */,
+				56CA5810250093D800C89C2D /* SDKCarthageTest2.framework */,
+				56CA5818250093D900C89C2D /* SDKCarthageTest2Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -75,6 +115,7 @@
 			children = (
 				562A150324F7B64E007059B3 /* SDKCarthageTest.h */,
 				562A151A24F7B674007059B3 /* HelloWorld.swift */,
+				56CA58292500942400C89C2D /* Bar.swift */,
 				562A150424F7B64E007059B3 /* Info.plist */,
 			);
 			path = SDKCarthageTest;
@@ -89,6 +130,25 @@
 			path = SDKCarthageTestTests;
 			sourceTree = "<group>";
 		};
+		56CA5811250093D800C89C2D /* SDKCarthageTest2 */ = {
+			isa = PBXGroup;
+			children = (
+				56CA5812250093D800C89C2D /* SDKCarthageTest2.h */,
+				56CA5827250093F300C89C2D /* Foo.swift */,
+				56CA5813250093D800C89C2D /* Info.plist */,
+			);
+			path = SDKCarthageTest2;
+			sourceTree = "<group>";
+		};
+		56CA581C250093D900C89C2D /* SDKCarthageTest2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				56CA581D250093D900C89C2D /* SDKCarthageTest2Tests.swift */,
+				56CA581F250093D900C89C2D /* Info.plist */,
+			);
+			path = SDKCarthageTest2Tests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -97,6 +157,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				562A151124F7B64F007059B3 /* SDKCarthageTest.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56CA580B250093D800C89C2D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56CA5820250093D900C89C2D /* SDKCarthageTest2.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +207,42 @@
 			productReference = 562A150924F7B64E007059B3 /* SDKCarthageTestTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		56CA580F250093D800C89C2D /* SDKCarthageTest2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56CA5825250093D900C89C2D /* Build configuration list for PBXNativeTarget "SDKCarthageTest2" */;
+			buildPhases = (
+				56CA580B250093D800C89C2D /* Headers */,
+				56CA580C250093D800C89C2D /* Sources */,
+				56CA580D250093D800C89C2D /* Frameworks */,
+				56CA580E250093D800C89C2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDKCarthageTest2;
+			productName = SDKCarthageTest2;
+			productReference = 56CA5810250093D800C89C2D /* SDKCarthageTest2.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		56CA5817250093D900C89C2D /* SDKCarthageTest2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56CA5826250093D900C89C2D /* Build configuration list for PBXNativeTarget "SDKCarthageTest2Tests" */;
+			buildPhases = (
+				56CA5814250093D900C89C2D /* Sources */,
+				56CA5815250093D900C89C2D /* Frameworks */,
+				56CA5816250093D900C89C2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56CA581B250093D900C89C2D /* PBXTargetDependency */,
+			);
+			name = SDKCarthageTest2Tests;
+			productName = SDKCarthageTest2Tests;
+			productReference = 56CA5818250093D900C89C2D /* SDKCarthageTest2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -154,6 +258,13 @@
 						LastSwiftMigration = 1120;
 					};
 					562A150824F7B64E007059B3 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					56CA580F250093D800C89C2D = {
+						CreatedOnToolsVersion = 11.2.1;
+						LastSwiftMigration = 1120;
+					};
+					56CA5817250093D900C89C2D = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
 				};
@@ -173,6 +284,8 @@
 			targets = (
 				562A14FF24F7B64E007059B3 /* SDKCarthageTest */,
 				562A150824F7B64E007059B3 /* SDKCarthageTestTests */,
+				56CA580F250093D800C89C2D /* SDKCarthageTest2 */,
+				56CA5817250093D900C89C2D /* SDKCarthageTest2Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -192,6 +305,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		56CA580E250093D800C89C2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56CA5816250093D900C89C2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -200,6 +327,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				562A151B24F7B674007059B3 /* HelloWorld.swift in Sources */,
+				56CA582A2500942400C89C2D /* Bar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,6 +339,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		56CA580C250093D800C89C2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56CA5828250093F300C89C2D /* Foo.swift in Sources */,
+				56CA582B2500944500C89C2D /* HelloWorld.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56CA5814250093D900C89C2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56CA581E250093D900C89C2D /* SDKCarthageTest2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -218,6 +363,11 @@
 			isa = PBXTargetDependency;
 			target = 562A14FF24F7B64E007059B3 /* SDKCarthageTest */;
 			targetProxy = 562A150B24F7B64E007059B3 /* PBXContainerItemProxy */;
+		};
+		56CA581B250093D900C89C2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56CA580F250093D800C89C2D /* SDKCarthageTest2 */;
+			targetProxy = 56CA581A250093D900C89C2D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -435,6 +585,95 @@
 			};
 			name = Release;
 		};
+		56CA5821250093D900C89C2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 7T8HSHZPQ4;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SDKCarthageTest2/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.charles.SDKCarthageTest2;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		56CA5822250093D900C89C2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 7T8HSHZPQ4;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SDKCarthageTest2/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.charles.SDKCarthageTest2;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		56CA5823250093D900C89C2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7T8HSHZPQ4;
+				INFOPLIST_FILE = SDKCarthageTest2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.charles.SDKCarthageTest2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		56CA5824250093D900C89C2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7T8HSHZPQ4;
+				INFOPLIST_FILE = SDKCarthageTest2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.charles.SDKCarthageTest2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -461,6 +700,24 @@
 			buildConfigurations = (
 				562A151824F7B64F007059B3 /* Debug */,
 				562A151924F7B64F007059B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56CA5825250093D900C89C2D /* Build configuration list for PBXNativeTarget "SDKCarthageTest2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56CA5821250093D900C89C2D /* Debug */,
+				56CA5822250093D900C89C2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56CA5826250093D900C89C2D /* Build configuration list for PBXNativeTarget "SDKCarthageTest2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56CA5823250093D900C89C2D /* Debug */,
+				56CA5824250093D900C89C2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -13,5 +13,6 @@ public class HelloWorld {
     public func show() {
         print("Hi there!!!")
         print("Hi Hi!!!")
+        print("Add second target")
     }
 }
